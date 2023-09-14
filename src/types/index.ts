@@ -5,4 +5,7 @@ declare global {
   }
 }
 
-export {}
+export type BulletinMetadata = {
+  name: string;
+  contractAddress: string;
+}
