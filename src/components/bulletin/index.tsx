@@ -336,9 +336,8 @@ export default function Bulletin({ metadata }: { metadata: BulletinMetadata }) {
         <div className="flex flex-row space-x-4">
           <input
             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="username"
             type="text"
-            placeholder="Username"
+            placeholder="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
